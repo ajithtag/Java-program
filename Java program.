@@ -1,0 +1,23 @@
+import java.util.Scanner; 
+
+public class ajith{ 
+
+public static void main(String args[]) {
+    
+     	Scanner reader = new Scanner(System.in); 
+     	 
+     	 int a,b,sum;
+     	
+     		System.out.println("Enter value for a: ");
+     		
+     		
+     		  a = reader.nextInt();  
+     		 
+     		 
+     		  System.out.println("enter value for b: ");
+     		  
+     		   b = reader.nextInt(); 
+     		    
+     		     sum = a*a+b*b;
+     		   
+     		   System.out.println( sum); } }
